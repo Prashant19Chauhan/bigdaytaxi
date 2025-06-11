@@ -1,6 +1,6 @@
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineEmail, MdOutlineLocalPhone } from "react-icons/md";
-import logo from '../assets/logo.png'
+import logo from '../assets/bigdaytaxi.png'
 
 const Footer = () => {
 
@@ -15,17 +15,17 @@ const Footer = () => {
                   <span><a
                      className="text-[0.9rem] flex items-center gap-[8px] cursor-pointer">
                      <IoLocationOutline className="text-[1.2rem]" />
-                     Barisha-Sadar, Bangaldesh.
+                     Turner Road C-20, Clement Town, Subhash nagar, Dehradun, Uttrakhand.
                   </a></span>
                   <span><a
                      className="text-[0.9rem] flex items-center gap-[8px] hover:text-blue-400 cursor-pointer">
                      <MdOutlineEmail className="text-[1.1rem]" />
-                     mdarmankhan6252@gmail.com
+                     o.shotravels@gmail.com
                   </a></span>
                   <span><a
                      className="text-[0.9rem] flex items-center gap-[8px] hover:text-blue-400 cursor-pointer">
                      <MdOutlineLocalPhone className="text-[1.1rem]" />
-                     +8801875778050
+                     +91-8881815984
                   </a></span>
                </div>
             </div>
@@ -33,14 +33,10 @@ const Footer = () => {
             <div className="">
                <h3 className="text-[1.2rem] font-semibold text-text mb-2">Services</h3>
                <div className="flex text-black flex-col gap-[10px]">
-                  <p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200">UI
-                     Components</p>
-                  <p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200">Website
-                     Templates</p>
-                  <p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200">Icons</p>
-                  <p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200">Opacity
-                     Palette</p>
-                  <p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200">Blocks</p>
+                  <p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200">Taxi Service</p>
+                  <p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200">Car Rental Service</p>
+                  <p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200">Tour Packages</p>
+                  <p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200">Bike Rental</p>
                </div>
             </div>
 
@@ -72,7 +68,7 @@ const Footer = () => {
                </div>
             </div>
          </div>
-         <p className="text-[12px] text-center py-4">All Right Reserved - MD Arman Khan</p>
+         <p className="text-[12px] text-center py-4">All Right Reserved - Big Day Taxi</p>
       </footer>
    );
 };

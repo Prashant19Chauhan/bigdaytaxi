@@ -17,6 +17,7 @@ import BadriKedar from "../../assets/taxi/kedarnath1.jpg"
 const taxiData = {
   local: [
     {
+      id:1,
       title: "Dehradun Local Taxi Service",
       description: "Affordable local taxi rides across Dehradun with expert drivers for city tours, office commutes, and shopping.",
       image: Dehradun,
@@ -167,6 +168,9 @@ const tabIcons = {
   packages: <FaBoxOpen className="inline mr-2" />,
 };
 
+const clickHandler = (e)  => {
+  console.log(e.target.id)
+}
 const TabsTaxiService = () => {
   const [activeTab, setActiveTab] = useState("local");
 
@@ -174,6 +178,7 @@ const TabsTaxiService = () => {
     return taxiData[category].map((item, index) => (
       <div
         key={index}
+        id={item.id}
         className="bg-white rounded-xl shadow-md border border-gray-200 hover:shadow-xl transition duration-300 overflow-hidden"
       >
         <img src={item.image} alt={item.title} className="h-48 w-full object-cover" />
@@ -196,7 +201,7 @@ const TabsTaxiService = () => {
           </ul>
           <div className="flex gap-4">
             <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Book Now</button>
-            <button className="border border-blue-600 text-blue-600 px-4 py-2 rounded hover:bg-blue-50">View Details</button>
+            <button className="border border-blue-600 text-blue-600 px-4 py-2 rounded hover:bg-blue-50" onClick={clickHandler}>View Details</button>
           </div>
         </div>
       </div>

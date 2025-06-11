@@ -8,6 +8,7 @@ import Bike from "../pages/BikeRental/BikeRental"
 import AllItems from "../pages/AllCars/AllCars";
 import CardDetails from "../components/CardDetails";
 import SingleBikePage from "../components/SingleBikePage"
+import SingleTaxiPage from "../components/SingleTaxiPage";
 
 export const router = createBrowserRouter([
   {
@@ -47,7 +48,11 @@ export const router = createBrowserRouter([
       {
         path: '/bikeDetails/:id',
         element: <SingleBikePage />,
-      }
+      },
+      {
+        path: '/taxi/:id',
+        element: <SingleTaxiPage />,
+      },
     ]
   },
 ]);

@@ -1,5 +1,9 @@
 import { useState, useEffect } from "react";
-import package1 from "../../assets/packages/package1.jpg"
+import Mussoorie from "../../assets/taxi/mussoorie.avif"
+import CharDham from "../../assets/taxi/chardham.jpg"
+import Rishikesh from "../../assets/taxi/rishikesh.jpeg"
+import Haridwar from "../../assets/taxi/haridwar3.webp"
+import Nanital from "../../assets/taxi/nainital.jpg"
 
 const packages = [
   {
@@ -7,7 +11,7 @@ const packages = [
     title: "Dehradun to Mussoorie Package",
     destination: "Mussoorie",
     price: 2500,
-    image: package1,
+    image: Mussoorie,
     duration: "1N/2D",
   },
   {
@@ -15,7 +19,7 @@ const packages = [
     title: "Char Dham Yatra Package",
     destination: "Char Dham",
     price: 20000,
-    image: package1,
+    image: CharDham,
     duration: "9N/10D",
   },
   {
@@ -23,7 +27,7 @@ const packages = [
     title: "Rishikesh Adventure Tour",
     destination: "Rishikesh",
     price: 3500,
-    image: package1,
+    image: Rishikesh,
     duration: "2N/3D",
   },
   {
@@ -31,7 +35,7 @@ const packages = [
     title: "Nainital Weekend Package",
     destination: "Nainital",
     price: 4500,
-    image: package1,
+    image: Nanital,
     duration: "2N/3D",
   },
   {
@@ -39,16 +43,8 @@ const packages = [
     title: "Haridwar Pilgrimage Tour",
     destination: "Haridwar",
     price: 3000,
-    image: package1,
+    image: Haridwar,
     duration: "1N/2D",
-  },
-  {
-    id: 6,
-    title: "Goa Beach Escape",
-    destination: "Goa",
-    price: 5500,
-    image: package1,
-    duration: "3N/4D",
   },
 ];
 
