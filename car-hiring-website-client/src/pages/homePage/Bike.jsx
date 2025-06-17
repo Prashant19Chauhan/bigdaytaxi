@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import Bikecard from "../../components/bikecard";
+import Bikecard from "../../components/Bikecard";
 import HondaActiva6G from "../../assets/bikes/HondaActiva6G.webp"
 import TVSJupiter from "../../assets/bikes/TVSJupiter.webp"
 import TVSNtorq125 from "../../assets/bikes/TVSNtorq125.webp"

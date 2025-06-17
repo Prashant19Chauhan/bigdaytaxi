@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaCity, FaMapMarkedAlt, FaPlaneDeparture, FaBoxOpen, FaCheckCircle } from "react-icons/fa";
 import Haridwar from "../../assets/taxi/haridwar3.webp"
-import Dehradun from "../../assets/taxi/Dehradun2.jpg"
+import Dehradun from "../../assets/taxi/dehradun2.jpg"
 import Rishikesh from "../../assets/taxi/rishikesh.jpeg"
 import Mussoorie from "../../assets/taxi/mussoorie.avif"
 import Delhi from "../../assets/taxi/delhi.webp"
